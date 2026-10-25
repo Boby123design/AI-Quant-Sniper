@@ -1,0 +1,79 @@
+# =========================
+# Python cache / build files
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# =========================
+# Virtual environments
+# =========================
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# Secrets and local credentials
+# Never commit real API keys, passwords, tokens, or broker credentials.
+# Keep placeholders in .env.example if needed.
+# =========================
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+secrets.toml
+credentials.json
+*_credentials.json
+*.pem
+*.key
+*.p12
+*.pfx
+
+# =========================
+# Proprietary model and trading data
+# These are excluded by default. Remove these rules ONLY if you
+# intentionally want to publish/share the trained model and dataset.
+# =========================
+
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.onnx
+models/
+artifacts/
+data/
+datasets/
+
+# =========================
+# Logs, temporary files, and local outputs
+# =========================
+*.log
+logs/
+tmp/
+temp/
+outputs/
+
+# =========================
+# Editor / operating system files
+# =========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# =========================
+# Existing / abandoned project folders
+# =========================
+Abondend_model_16/
+
